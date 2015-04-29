@@ -42,7 +42,7 @@ gulp.task("less",function(){
 
 gulp.task('watch', function() {
     gulp.watch(lessFiles , ["less"]);
-})
+});
 
 gulp.task("default",[
 	"less", 
